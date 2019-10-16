@@ -6,52 +6,53 @@
 # You can freely edit it here, if you don't know YAML, make sure to check
 # your YAML file using http://www.yamllint.com/
 
-name : John Doe
-nickname : Johajdlajlakdh
-title: John Doe Termplate
+name : Buddika Ranasingha
+
+title: DevOps Engineer
 
 description: >
-  Enter Description Here...
+  Experienced DevOps Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Python, SQL, Hadoop, Docker, and Kafka. Strong support professional with a Bachelor of Science (B.Sc.Sp) focused in Computer Science and Technology from Uva Wellassa University. 
 
 # You can customize this however you like
 social:
   - media : Github
-    username : johndonut
-    link : ~
+    username : buddikamanoj
+    link : https://github.com/buddikamanoj
     description : Where I Contribute and Do Projects
 
   - media : Hackerrank
-    username : john_doe
+    username : buddikamanoj
     link : ~
     description : Where I learn Programming
 
   - media : Stackoverflow
-    username : JohnDoe
-    link : ~
+    username : buddika-manoj
+    link : https://stackoverflow.com/users/7878044/buddika-manoj
     description : Where I ask programming Questions
 
   - media : LinkedIn
-    username : John Doe
-    link : ~
+    username : buddika-manoj
+    link : https://stackoverflow.com/users/7878044/buddika-manoj
     description : Where I can be found for recruiters
 
 contact:
   - method : Email
-    address : johndoe@example.com
+    address : buddikamanoj9@gmail.com
 
 projects :
-  - name : Termplate
-    description : A cool Terminal Interface web portofolio
-    link : https://github.com/thomas154/portfolio
+  - name : GitHub Projects
+    description : My previous and Ongoing Projects
+    link : https://github.com/buddikamanoj?tab=repositories
 
-  - name : ~
+  - name : more to come
     description : ~
     link : ~
 
 additional : |
-  Add Here
+  updating
 
-resume: https://drive.google.com/linktoyouresume
+resume: updating
 
 history: |
-  Add Your Background / Story Here
+  Web site still in progress
+

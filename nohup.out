@@ -1,0 +1,137 @@
+ * Serving Flask app "web" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 153-587-694
+175.157.42.102 - - [24/Sep/2019 20:13:46] "GET / HTTP/1.1" 200 -
+175.157.42.102 - - [24/Sep/2019 20:13:47] "GET / HTTP/1.1" 200 -
+175.157.42.102 - - [24/Sep/2019 20:17:48] "GET / HTTP/1.1" 200 -
+175.157.42.102 - - [24/Sep/2019 20:17:48] "GET /static/stylesheet.css HTTP/1.1" 200 -
+175.157.42.102 - - [24/Sep/2019 20:17:49] "GET /favicon.ico HTTP/1.1" 404 -
+23.92.36.2 - - [24/Sep/2019 20:18:19] "GET / HTTP/1.1" 200 -
+175.157.42.102 - - [24/Sep/2019 20:18:46] "GET /updating HTTP/1.1" 404 -
+23.92.36.2 - - [24/Sep/2019 20:36:03] "GET / HTTP/1.1" 200 -
+23.92.36.2 - - [24/Sep/2019 21:02:56] "GET / HTTP/1.1" 200 -
+23.92.36.2 - - [24/Sep/2019 21:18:47] "GET / HTTP/1.1" 200 -
+23.92.36.2 - - [24/Sep/2019 21:27:24] "GET / HTTP/1.1" 200 -
+139.162.106.181 - - [24/Sep/2019 21:51:10] "GET / HTTP/1.1" 200 -
+128.14.209.178 - - [24/Sep/2019 23:26:58] "GET / HTTP/1.1" 200 -
+52.231.159.59 - - [25/Sep/2019 02:02:24] "GET / HTTP/1.1" 200 -
+52.231.159.59 - - [25/Sep/2019 02:02:25] "OPTIONS / HTTP/1.1" 200 -
+52.231.159.59 - - [25/Sep/2019 02:02:25] "POST / HTTP/1.1" 405 -
+52.231.159.59 - - [25/Sep/2019 02:02:31] "GET /robots.txt HTTP/1.1" 404 -
+43.250.242.130 - - [25/Sep/2019 03:13:10] "GET /updating HTTP/1.1" 404 -
+43.250.242.130 - - [25/Sep/2019 03:13:11] "GET /favicon.ico HTTP/1.1" 404 -
+43.250.242.130 - - [25/Sep/2019 03:14:12] "GET / HTTP/1.1" 200 -
+43.250.242.130 - - [25/Sep/2019 03:14:13] "GET /static/stylesheet.css HTTP/1.1" 200 -
+ * Serving Flask app "web" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "web.py", line 21, in <module>
+    app.run(host='0.0.0.0', port=80, debug=True)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+43.250.242.130 - - [25/Sep/2019 03:30:40] "GET / HTTP/1.1" 200 -
+171.67.70.80 - - [25/Sep/2019 04:06:30] "GET / HTTP/1.1" 200 -
+185.234.219.120 - - [25/Sep/2019 05:29:44] "GET / HTTP/1.1" 200 -
+205.143.205.169 - - [25/Sep/2019 05:41:21] "GET / HTTP/1.1" 200 -
+205.143.205.169 - - [25/Sep/2019 05:41:22] "GET /static/stylesheet.css HTTP/1.1" 200 -
+205.143.205.169 - - [25/Sep/2019 05:41:22] "GET /favicon.ico HTTP/1.1" 404 -
+205.143.205.169 - - [25/Sep/2019 05:42:10] "GET /None HTTP/1.1" 404 -
+205.143.205.169 - - [25/Sep/2019 05:42:51] "GET /None HTTP/1.1" 404 -
+205.143.205.169 - - [25/Sep/2019 05:42:56] "GET /None HTTP/1.1" 404 -
+209.17.96.58 - - [25/Sep/2019 05:43:24] "GET / HTTP/1.0" 200 -
+112.135.196.254 - - [25/Sep/2019 06:30:10] "GET / HTTP/1.1" 200 -
+112.135.196.254 - - [25/Sep/2019 06:30:11] "GET /static/stylesheet.css HTTP/1.1" 200 -
+112.135.196.254 - - [25/Sep/2019 06:30:13] "GET /favicon.ico HTTP/1.1" 404 -
+205.143.204.233 - - [25/Sep/2019 06:39:08] "GET / HTTP/1.1" 200 -
+205.143.204.233 - - [25/Sep/2019 06:39:08] "GET /static/stylesheet.css HTTP/1.1" 200 -
+205.143.204.233 - - [25/Sep/2019 06:39:09] "GET /favicon.ico HTTP/1.1" 404 -
+60.191.38.77 - - [25/Sep/2019 10:54:00] "GET / HTTP/1.1" 200 -
+205.143.205.169 - - [25/Sep/2019 12:21:40] "GET / HTTP/1.1" 200 -
+71.6.232.4 - - [25/Sep/2019 13:00:14] "GET / HTTP/1.1" 200 -
+43.250.242.130 - - [25/Sep/2019 13:11:03] "GET / HTTP/1.1" 200 -
+43.250.242.130 - - [25/Sep/2019 13:11:03] "GET /static/stylesheet.css HTTP/1.1" 200 -
+43.250.242.130 - - [25/Sep/2019 13:11:05] "GET /favicon.ico HTTP/1.1" 404 -
+184.94.240.92 - - [25/Sep/2019 13:12:17] "GET / HTTP/1.1" 200 -
+184.94.240.92 - - [25/Sep/2019 13:12:18] "GET /None HTTP/1.1" 404 -
+184.94.240.92 - - [25/Sep/2019 13:12:19] "GET /updating HTTP/1.1" 404 -
+43.250.242.130 - - [25/Sep/2019 13:21:20] "GET / HTTP/1.1" 200 -
+43.250.242.130 - - [25/Sep/2019 13:21:22] "GET /static/stylesheet.css HTTP/1.1" 200 -
+43.250.242.130 - - [25/Sep/2019 13:21:25] "GET /favicon.ico HTTP/1.1" 404 -
+43.250.242.130 - - [25/Sep/2019 13:24:51] "GET /None HTTP/1.1" 404 -
+64.233.173.146 - - [25/Sep/2019 13:38:18] "GET / HTTP/1.1" 200 -
+64.233.173.144 - - [25/Sep/2019 13:38:19] "GET /static/stylesheet.css HTTP/1.1" 200 -
+64.233.173.146 - - [25/Sep/2019 13:38:20] "GET /favicon.ico HTTP/1.1" 404 -
+64.233.173.146 - - [25/Sep/2019 13:38:43] "GET / HTTP/1.1" 200 -
+77.247.110.222 - - [25/Sep/2019 13:48:17] "HEAD /robots.txt HTTP/1.0" 404 -
+184.94.240.92 - - [25/Sep/2019 13:48:56] "GET / HTTP/1.1" 200 -
+184.94.240.92 - - [25/Sep/2019 13:49:18] "GET /None HTTP/1.1" 404 -
+184.94.240.92 - - [25/Sep/2019 13:49:20] "GET /updating HTTP/1.1" 404 -
+91.224.99.69 - - [25/Sep/2019 13:52:08] "GET / HTTP/1.0" 200 -
+184.94.240.92 - - [25/Sep/2019 13:53:00] "GET / HTTP/1.1" 200 -
+184.94.240.92 - - [25/Sep/2019 13:53:01] "GET /None HTTP/1.1" 404 -
+184.94.240.92 - - [25/Sep/2019 13:53:01] "GET /updating HTTP/1.1" 404 -
+77.247.110.222 - - [25/Sep/2019 13:56:15] "HEAD /robots.txt HTTP/1.0" 404 -
+66.249.64.103 - - [25/Sep/2019 14:29:20] "GET /robots.txt HTTP/1.1" 404 -
+66.249.64.103 - - [25/Sep/2019 14:29:20] "GET / HTTP/1.1" 200 -
+66.249.64.97 - - [25/Sep/2019 14:29:28] "GET /static/stylesheet.css HTTP/1.1" 200 -
+184.94.240.92 - - [25/Sep/2019 15:15:49] "GET / HTTP/1.1" 200 -
+184.94.240.92 - - [25/Sep/2019 15:15:50] "GET /None HTTP/1.1" 404 -
+184.94.240.92 - - [25/Sep/2019 15:15:55] "GET /updating HTTP/1.1" 404 -
+49.37.11.155 - - [25/Sep/2019 15:32:49] "POST /index.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+124.123.104.56 - - [25/Sep/2019 15:51:47] "POST /index.php?routestring=ajax/render/widget_php HTTP/1.1" 404 -
+123.231.122.11 - - [25/Sep/2019 16:00:50] "GET /favicon.ico HTTP/1.1" 404 -
+ * Serving Flask app "web" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 153-587-694
+116.206.246.165 - - [16/Oct/2019 15:26:23] "GET / HTTP/1.1" 200 -
+116.206.246.165 - - [16/Oct/2019 15:26:24] "GET /static/stylesheet.css HTTP/1.1" 200 -
+116.206.246.165 - - [16/Oct/2019 15:26:40] "GET /favicon.ico HTTP/1.1" 404 -
+89.248.169.17 - - [16/Oct/2019 16:17:33] "GET / HTTP/1.1" 200 -
+80.85.87.161 - - [16/Oct/2019 16:29:05] "GET / HTTP/1.1" 200 -
+223.112.190.70 - - [16/Oct/2019 16:35:42] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 -
+223.112.190.70 - - [16/Oct/2019 16:35:42] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [16/Oct/2019 16:35:43] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [16/Oct/2019 16:35:43] "GET /pma/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [16/Oct/2019 16:35:44] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 -
+223.112.190.70 - - [16/Oct/2019 16:35:44] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 -
+ * Serving Flask app "web" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+Traceback (most recent call last):
+  File "web.py", line 21, in <module>
+    app.run(host='0.0.0.0', port=80, debug=True)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/home/ubuntu/.local/lib/python3.6/site-packages/werkzeug/serving.py", line 988, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+116.206.246.165 - - [16/Oct/2019 17:00:04] "GET / HTTP/1.1" 200 -
+116.206.246.165 - - [16/Oct/2019 17:20:40] "GET / HTTP/1.1" 200 -
+116.206.246.165 - - [16/Oct/2019 17:20:41] "GET /static/stylesheet.css HTTP/1.1" 200 -
+116.206.246.165 - - [16/Oct/2019 17:20:41] "GET /favicon.ico HTTP/1.1" 404 -
+116.206.246.165 - - [16/Oct/2019 17:43:11] "GET / HTTP/1.1" 200 -
+116.206.246.165 - - [16/Oct/2019 17:43:16] "GET / HTTP/1.1" 200 -
+192.95.12.100 - - [16/Oct/2019 17:43:45] "GET / HTTP/1.1" 200 -
+192.95.12.100 - - [16/Oct/2019 17:43:45] "GET /static/stylesheet.css HTTP/1.1" 200 -
+192.95.12.100 - - [16/Oct/2019 17:43:48] "GET /favicon.ico HTTP/1.1" 404 -
+192.95.12.100 - - [16/Oct/2019 17:44:25] "GET / HTTP/1.1" 200 -
